@@ -52,9 +52,10 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>nbm-maven-plugin</artifactId>
-                <version>3.8</version>
+                <version>3.11</version>
                 <extensions>true</extensions>
                 <configuration>
+                    <cluster>custom_rvec_server</cluster>
                     <useOSGiDependencies>false</useOSGiDependencies>
                     <verifyRuntime>warn</verifyRuntime>
                     <publicPackages>

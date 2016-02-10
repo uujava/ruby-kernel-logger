@@ -1,0 +1,2 @@
+set PLUGIN_COMMONS_JAR=h:\tmp\ru-programpark-rvec-nb-plugin-common.jar
+call mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -DgroupId=ru.programpark.rvec -DartifactId=nb-plugin-common -Dversion=1.0 -Dpackaging=jar -Dfile=%PLUGIN_COMMONS_JAR%
